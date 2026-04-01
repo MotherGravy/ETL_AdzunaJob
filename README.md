@@ -11,7 +11,7 @@
 ---
 
 ## Структура проекта
-etl_project/
+```etl_project/
 ├─ extract.py
 ├─ transform.py
 ├─ load.py
@@ -21,6 +21,7 @@ etl_project/
 ├─ requirements.txt
 ├─ README.md
 ├─ data/ # для parquet файлов
+```
 
 ---
 
