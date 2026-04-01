@@ -1,5 +1,5 @@
-API_ID = "84372380"
-API_KEY = "c7a32a2bd36b7a395d8b013683d949c8"
+API_ID = "api_id"
+API_KEY = "api_key"
 COUNTRY = "gb"
 DB_CONFIG = {
     "user": "your_user",
