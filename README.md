@@ -36,6 +36,7 @@ pip install -r requirements.txt
 ```
 
 2. Настроить config.py:
+```
 API_ID = "<ваш_api_id>"
 API_KEY = "<ваш_api_key>"
 COUNTRY = "gb"
@@ -47,12 +48,17 @@ DB_CONFIG = {
     "port": "5432",
     "database": "jobs_db"
 }
+```
 
 3. Запуск ETL
+```
 python main.py
+```
 
 Данные загрузятся в PostgreSQL и локально в data/jobs_<etl_id>.parquet.
 
 4. Замечания
 Папка data/ должна существовать перед запуском. Если её нет, создайте:
+```
 mkdir data
+```
